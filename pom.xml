@@ -20,12 +20,16 @@
 
     <properties>
         <java.version>21</java.version>
-        <spring-cloud.version>2025.1.2</spring-cloud.version>
+        <spring-cloud.version>2025.1.4</spring-cloud.version>
     </properties>
 
     <modules>
         <module>services/customer-service</module>
         <module>services/api_gateway</module>
+        <module>services/discovery-service</module>
+        <module>services/config-service</module>
+        <module>services/event-service</module>
+        <module>services/booking-service</module>
     </modules>
 
     <dependencyManagement>
